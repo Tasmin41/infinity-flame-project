@@ -1,0 +1,94 @@
+/*Responsive code part*/
+
+
+/*mediul layout :1280px;*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.area{
+		width:970px;
+	}
+	.logo{
+		width:240px;
+	}
+	.single-service{
+		width:310px;
+		background-color:gray;
+	}
+	.about-left{
+		width:670px;
+		text-align:center;
+	}
+	.single-gallery{
+		width: 222px;
+	}
+	.contact-form{
+		width: 550px;
+	}
+}
+
+/*Tablet layout:768px.*/
+@media only screen and (min-width:768px) and (max-width:992px){
+	
+	.area{
+	width:750px;
+	}
+	.header{
+		margin-top: 10px;
+	}
+	.logo{
+		
+		width: 160px;
+	}
+	.menu{
+		width: 550px;
+	}
+	.about-left{
+		width: 450px;
+	}
+	.about-left p {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+	.about-right{
+		width: 200px;
+	}
+	.single-service{
+		width: 235px;
+	}
+	.single-service h4{
+		margin-top:10px;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.single-service img{
+		width: 180;
+	height: 180;
+	}
+	.single-gallery{
+		width: 167px;
+	}
+	.contact-form{
+		width: 400;
+	}
+	.contact-address{
+		width:250px;
+	}
+}
+
+/*Mobile layout:320px.*/
+@media only screen (max-width:767px){
+	.area{
+		width:300px; /*prblm*/
+	}
+	.menu{
+		width:100%;
+	}
+	.menu ul{
+		text-align:center;
+	}
+	
+}
+}
+
+/*Wide mobile layout . */
+@media only screen and (min-width:480px) and (max-width:767px){
+}
